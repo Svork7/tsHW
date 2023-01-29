@@ -1,11 +1,11 @@
 import Buyalbe from "./buyable";
 
-export default class Book implements Buyalbe {
+export default class MusicAlbom implements Buyalbe {
   constructor (
     readonly id: number,
     readonly name: string,
     readonly author: string,
     readonly price: number,
-    readonly pages: number,
+    readonly tracks: number,
   ) {}
 }
